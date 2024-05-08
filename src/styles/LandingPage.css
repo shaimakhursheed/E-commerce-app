@@ -1,7 +1,28 @@
-.LandingPage
+ .landingpage
 {
-    display: flex;
-    align-items: center;
-    height: 80vh;
-    
+   background: url("https://wallpapercave.com/wp/wp5009886.png");
+   background-position: center;
+   background-size: cover;
+   height: 100vh;
+   display:flex ; 
+} 
+
+.landingpage img{
+    position: relative;
+    left: 550px;
+    height: 200px;
+    width: 200px;
+    margin-top: 50px;
+    margin-right: 40px;
+}
+.landingpage p{
+    position: relative;
+    left: 550px;
+    top: 30px;
+    text-decoration: none;
+    color: aquamarine;
+    size: 15px;
+}
+.landingpage img:hover{
+    transform: scale(1.2);
 }
